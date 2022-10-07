@@ -1,0 +1,150 @@
+@media (max-width: 768px) {
+  * {
+    margin: 0px;
+    padding: 0px;
+    max-width: 768px;
+    width: 100%;
+    height: auto;
+  }
+  .banner-img {
+    max-height: auto;
+    max-width: 768px;
+  }
+  .banner {
+    top: 150px;
+    left: 370px;
+  }
+  .container-banner {
+    margin-left: 0px;
+  }
+  .nav-bar {
+    margin: 0px !important;
+  }
+
+  .avatar-img {
+    padding: 0px;
+    margin: -670px 0px 0px 290px;
+  }
+  .img-avatar {
+    max-width: 150px;
+  }
+  .bg-grey,
+  .conatiner-target,
+  .container-job-info,
+  .banner span,
+  .container-nav-bar,
+  .container-nav-bar a {
+    padding: 0px;
+    margin: 0px;
+  }
+  .target,
+  .personal-info {
+    padding: 0px !important;
+    margin-left: 10px !important;
+  }
+
+  .section-title {
+    padding-left: 50px;
+  }
+  .container-job-info {
+    grid-template-columns: repeat(2, 50%);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
+  .container-job-info-kinh-nghiem,
+  .container-job-info-hoat-dong,
+  .container-job-info-hoc-van,
+  .container-job-info-ky-nang,
+  .container-job-info-so-thich,
+  .container-job-info-ngon-ngu,
+  .container-certificate,
+  .section-certificate {
+    margin: 0px;
+    padding: 10px;
+  }
+  .container-job-info-kinh-nghiem a,
+  .container-job-info-hoat-dong a,
+  .container-job-info-hoc-van a,
+  .container-job-info-ky-nang a,
+  .so-thich-menu a,
+  .container-job-info-ngon-ngu a {
+    text-align: left;
+  }
+  .so-thich a {
+    text-align: center;
+  }
+  .certificate {
+    grid-template-columns: repeat(2, 50%);
+    margin: 20px 0px 0px 0px;
+    padding: 0 px;
+  }
+  .section-title {
+    padding: 20px;
+  }
+  .certificate-web,
+  .certificate-java,
+  .certificate-data {
+    padding: 20px;
+    margin: 0px;
+  }
+  .h4,
+  h4 {
+    font-size: 15px !important;
+    font-weight: bold !important;
+  }
+  .cer-img {
+    width: 150px;
+    height: 100px;
+  }
+  .java-line {
+    padding: 80px 0px 80px 10px;
+  }
+  .container-project {
+    margin: 0px;
+    padding: 0px;
+  }
+  .project {
+    grid-template-columns: repeat(3, 33%);
+  }
+  .project1,
+  .project2,
+  .project3,
+  .project-img,
+  .project1 img,
+  .project2 img,
+  .project3 img {
+    width: 250px;
+    height: auto;
+    padding: 0px;
+  }
+  div.thucung-menu,
+  div.cv-menu,
+  div.tintuc-menu {
+    grid-template-columns: 30% 30% 40%;
+  }
+
+  .nam,
+  .FUNIX,
+  .developer {
+    margin: 0px;
+    padding: 0px;
+    width: 75%;
+  }
+  .nam {
+    padding-top: 10px;
+  }
+  .container-footer {
+    margin-left: 50px;
+    grid-template-columns: 20% 20% 20%;
+  }
+}
+@media (max-width: 1400px) {
+  body {
+    display: block;
+  }
+}
+@media (max-width: 500px) {
+  body {
+    display: block;
+  }
+}
